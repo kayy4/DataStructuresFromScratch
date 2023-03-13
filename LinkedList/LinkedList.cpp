@@ -24,5 +24,7 @@ Node* Temp = (Node*)malloc(sizeof(Node));    //create a memory block and collect
 Node* Temp2 = A;                            //declaring new variable pointer to the head node
 while((*Temp2).Link != NULL){
   Temp = (*Temp2).Link;
-}
+ }
+
+ printf("Hello");
 }
