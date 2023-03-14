@@ -4,7 +4,7 @@
 #include<stdio.h>
 int main(){
 int value1, value2;
-struct Node{                    
+struct Node{     
   int Data;                     //  |Head Node|----->|data|Link|----->|data|Link|----->NULL
   struct Node* Link;            //   data_type *pointer_name;   | *Link is a pointer to a struct Node.  | 
 };
@@ -25,6 +25,4 @@ Node* Temp2 = A;                            //declaring new variable pointer to 
 while((*Temp2).Link != NULL){
   Temp = (*Temp2).Link;
  }
-
- printf("Hello");
 }
