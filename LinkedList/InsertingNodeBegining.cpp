@@ -36,4 +36,3 @@ int main(){
     Print();      //function to print the List
   }
 }
-
