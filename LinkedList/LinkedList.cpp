@@ -6,7 +6,7 @@ int main(){
 int value1, value2;
 struct Node{     
   int Data;                     //  |Head Node|----->|data|Link|----->|data|Link|----->NULL
-  struct Node* Link;            //   data_type *pointer_name;   | *Link is a pointer to a struct Node.  | 
+  struct Node *Link;            //   data_type *pointer_name;   | *Link is a pointer to a struct Node.  | 
 };
 Node* A;                        //Pointer to the First node, to store the address of the node
 A = NULL;                       //     A|    |------>NULL        Head node
@@ -24,5 +24,6 @@ Node* Temp = (Node*)malloc(sizeof(Node));    //create a memory block and collect
 Node* Temp2 = A;                            //declaring new variable pointer to the head node
 while((*Temp2).Link != NULL){
   Temp = (*Temp2).Link;
+  
  }
 }
